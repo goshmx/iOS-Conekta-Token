@@ -9,25 +9,38 @@
 /* Begin PBXBuildFile section */
 		8FD0D9D31C0A033800E44D8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD0D9D21C0A033800E44D8C /* main.m */; };
 		8FD0D9D61C0A033800E44D8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD0D9D51C0A033800E44D8C /* AppDelegate.m */; };
-		8FD0D9D91C0A033900E44D8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD0D9D81C0A033900E44D8C /* ViewController.m */; };
+		8FD0D9D91C0A033900E44D8C /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD0D9D81C0A033900E44D8C /* Start.m */; };
 		8FD0D9DC1C0A033900E44D8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD0D9DA1C0A033900E44D8C /* Main.storyboard */; };
 		8FD0D9DF1C0A033900E44D8C /* Conekta_Token.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8FD0D9DD1C0A033900E44D8C /* Conekta_Token.xcdatamodeld */; };
 		8FD0D9E11C0A033900E44D8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FD0D9E01C0A033900E44D8C /* Assets.xcassets */; };
 		8FD0D9E41C0A033900E44D8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FD0D9E21C0A033900E44D8C /* LaunchScreen.storyboard */; };
+		8FD0D9F91C0A063C00E44D8C /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD0D9EF1C0A063C00E44D8C /* Card.m */; };
+		8FD0D9FA1C0A063C00E44D8C /* Conekta.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD0D9F11C0A063C00E44D8C /* Conekta.m */; };
+		8FD0D9FB1C0A063C00E44D8C /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD0D9F61C0A063C00E44D8C /* Connection.m */; };
+		8FD0D9FC1C0A063C00E44D8C /* Token.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD0D9F81C0A063C00E44D8C /* Token.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8FD0D9CE1C0A033800E44D8C /* Conekta Token.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conekta Token.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FD0D9D21C0A033800E44D8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8FD0D9D41C0A033800E44D8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8FD0D9D51C0A033800E44D8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8FD0D9D71C0A033900E44D8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8FD0D9D81C0A033900E44D8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8FD0D9D41C0A033800E44D8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "Conekta Token/AppDelegate.h"; sourceTree = "<group>"; };
+		8FD0D9D51C0A033800E44D8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "Conekta Token/AppDelegate.m"; sourceTree = "<group>"; };
+		8FD0D9D71C0A033900E44D8C /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Start.h; path = "Conekta Token/Start.h"; sourceTree = "<group>"; };
+		8FD0D9D81C0A033900E44D8C /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Start.m; path = "Conekta Token/Start.m"; sourceTree = "<group>"; };
 		8FD0D9DB1C0A033900E44D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FD0D9DE1C0A033900E44D8C /* Conekta_Token.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Conekta_Token.xcdatamodel; sourceTree = "<group>"; };
 		8FD0D9E01C0A033900E44D8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FD0D9E31C0A033900E44D8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FD0D9E51C0A033900E44D8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FD0D9EE1C0A063C00E44D8C /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Card.h; path = "Conekta Token/Conekta/Card.h"; sourceTree = "<group>"; };
+		8FD0D9EF1C0A063C00E44D8C /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Card.m; path = "Conekta Token/Conekta/Card.m"; sourceTree = "<group>"; };
+		8FD0D9F01C0A063C00E44D8C /* Conekta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Conekta.h; path = "Conekta Token/Conekta/Conekta.h"; sourceTree = "<group>"; };
+		8FD0D9F11C0A063C00E44D8C /* Conekta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Conekta.m; path = "Conekta Token/Conekta/Conekta.m"; sourceTree = "<group>"; };
+		8FD0D9F21C0A063C00E44D8C /* Conekta.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Conekta.xcodeproj; path = "Conekta Token/Conekta/Conekta.xcodeproj"; sourceTree = "<group>"; };
+		8FD0D9F51C0A063C00E44D8C /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Connection.h; path = "Conekta Token/Conekta/Connection.h"; sourceTree = "<group>"; };
+		8FD0D9F61C0A063C00E44D8C /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Connection.m; path = "Conekta Token/Conekta/Connection.m"; sourceTree = "<group>"; };
+		8FD0D9F71C0A063C00E44D8C /* Token.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Token.h; path = "Conekta Token/Conekta/Token.h"; sourceTree = "<group>"; };
+		8FD0D9F81C0A063C00E44D8C /* Token.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Token.m; path = "Conekta Token/Conekta/Token.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +57,9 @@
 		8FD0D9C51C0A033800E44D8C = {
 			isa = PBXGroup;
 			children = (
+				8FD0D9ED1C0A049100E44D8C /* Conekta */,
+				8FD0D9EC1C0A035200E44D8C /* Controllers */,
+				8FD0D9EB1C0A034200E44D8C /* Main */,
 				8FD0D9D01C0A033800E44D8C /* Conekta Token */,
 				8FD0D9CF1C0A033800E44D8C /* Products */,
 			);
@@ -60,10 +76,6 @@
 		8FD0D9D01C0A033800E44D8C /* Conekta Token */ = {
 			isa = PBXGroup;
 			children = (
-				8FD0D9D41C0A033800E44D8C /* AppDelegate.h */,
-				8FD0D9D51C0A033800E44D8C /* AppDelegate.m */,
-				8FD0D9D71C0A033900E44D8C /* ViewController.h */,
-				8FD0D9D81C0A033900E44D8C /* ViewController.m */,
 				8FD0D9DA1C0A033900E44D8C /* Main.storyboard */,
 				8FD0D9E01C0A033900E44D8C /* Assets.xcassets */,
 				8FD0D9E21C0A033900E44D8C /* LaunchScreen.storyboard */,
@@ -80,6 +92,47 @@
 				8FD0D9D21C0A033800E44D8C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FD0D9EB1C0A034200E44D8C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8FD0D9D41C0A033800E44D8C /* AppDelegate.h */,
+				8FD0D9D51C0A033800E44D8C /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8FD0D9EC1C0A035200E44D8C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FD0D9D71C0A033900E44D8C /* Start.h */,
+				8FD0D9D81C0A033900E44D8C /* Start.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8FD0D9ED1C0A049100E44D8C /* Conekta */ = {
+			isa = PBXGroup;
+			children = (
+				8FD0D9EE1C0A063C00E44D8C /* Card.h */,
+				8FD0D9EF1C0A063C00E44D8C /* Card.m */,
+				8FD0D9F01C0A063C00E44D8C /* Conekta.h */,
+				8FD0D9F11C0A063C00E44D8C /* Conekta.m */,
+				8FD0D9F21C0A063C00E44D8C /* Conekta.xcodeproj */,
+				8FD0D9F51C0A063C00E44D8C /* Connection.h */,
+				8FD0D9F61C0A063C00E44D8C /* Connection.m */,
+				8FD0D9F71C0A063C00E44D8C /* Token.h */,
+				8FD0D9F81C0A063C00E44D8C /* Token.m */,
+			);
+			name = Conekta;
+			sourceTree = "<group>";
+		};
+		8FD0D9F31C0A063C00E44D8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +180,12 @@
 			mainGroup = 8FD0D9C51C0A033800E44D8C;
 			productRefGroup = 8FD0D9CF1C0A033800E44D8C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8FD0D9F31C0A063C00E44D8C /* Products */;
+					ProjectRef = 8FD0D9F21C0A063C00E44D8C /* Conekta.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8FD0D9CD1C0A033800E44D8C /* Conekta Token */,
@@ -152,7 +211,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FD0D9D91C0A033900E44D8C /* ViewController.m in Sources */,
+				8FD0D9F91C0A063C00E44D8C /* Card.m in Sources */,
+				8FD0D9FB1C0A063C00E44D8C /* Connection.m in Sources */,
+				8FD0D9FA1C0A063C00E44D8C /* Conekta.m in Sources */,
+				8FD0D9FC1C0A063C00E44D8C /* Token.m in Sources */,
+				8FD0D9D91C0A033900E44D8C /* Start.m in Sources */,
 				8FD0D9D61C0A033800E44D8C /* AppDelegate.m in Sources */,
 				8FD0D9D31C0A033800E44D8C /* main.m in Sources */,
 				8FD0D9DF1C0A033900E44D8C /* Conekta_Token.xcdatamodeld in Sources */,
@@ -267,6 +330,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Conekta Token/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Conekta",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kairos.Conekta-Token";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -278,6 +345,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Conekta Token/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Conekta",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Kairos.Conekta-Token";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
